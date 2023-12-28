@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #001f3f; /* Dark bluish-black background */
+    color: #fff; /* White text color for better visibility on dark background */
+}
+
+.container {
+    background-color: #001f3f; /* bluish-black color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff; /* white text color for better visibility on dark background */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#output {
+    margin-top: 20px;
+}
+
+/* Add the following rule to limit image size */
+#output img {
+    width: 200px;
+    height: 300px;
+    border-radius: 100%;
+}
+#output p {
+    font-weight: bold;
+}
